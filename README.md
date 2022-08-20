@@ -1,3 +1,5 @@
+[![Swift](https://github.com/404dvd/cron-swift/actions/workflows/swift.yml/badge.svg?branch=main)](https://github.com/404dvd/cron-swift/actions/workflows/swift.yml)
+
 # cron-swift
 
 A sample CLI tool for cron scheduling.
