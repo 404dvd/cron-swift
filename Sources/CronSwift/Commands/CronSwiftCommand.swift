@@ -17,7 +17,10 @@ public final class CronSwiftCommand {
             printHelp()
             return
         }
-        guard arguments.count == 2 else { fatalError("Too many arguments.") }
+        guard arguments.count == 2 else {
+            print("Too many arguments.")
+            return
+        }
         let time = arguments[1]
         let lines = fetchLines()
         algorithm(fileLines: lines, simulatedCurrentTime: time).process { result in
